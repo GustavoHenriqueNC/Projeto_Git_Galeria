@@ -129,3 +129,29 @@ p {
     font-size: 12px;
   }
 }
+
+#popup {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+
+  max-width: 90vw;
+  max-height: 90vh;
+  
+  img {
+    max-width: 900px;
+    height: auto;
+    max-height: 70vh;
+  }
+
+  #close {
+    text-align: center;
+    
+    button{
+      font-size: 120%;
+      margin-top: 1rem;
+    }
+  }
+}
